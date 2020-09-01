@@ -11,14 +11,11 @@ public class Main {
         IntOnlyArrayList il = new IntOnlyArrayList();
 
 
-        //https://stackoverflow.com/questions/8438879/expanding-an-array
 
-        int n = 10;
-        int i;
         int index = 2;
         //original array with 10 elements
         int arr[] = {1,2,3,4,5,6,7,8,9,10};
-
+        int n = arr.length;
         //henter element på index 5
         System.out.println("Getting element from index ");
        intOnlyArrayList.getIndex(arr, 5);
